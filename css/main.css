@@ -27,7 +27,7 @@ ul {
   padding: 0;
 }
 #images {
-  margin: 0;
+  margin: 100px 50px 100px 50px;
   text-align: center;
 }
 #images img {
