@@ -6,23 +6,18 @@ body {
   font-size: 22px;
   margin: 100px 50px 100px 50px:
 }
-a {
-  text-transform: uppercase;
-  color: teal;
-  text-decoration: none;
-  letter-spacing: 1.5px;
-
-}
-a:hover {
-  color: white;
-}
 h1 {
   text-align: center;
 }
 li {
-   margin: 25px 0 0 0;
+   margin: 10px 0 0 0;
+   font-size: 22px;
+   list-style-type: none;
+   padding: 0;
+
 }
 ul {
+  text-align: center;
   list-style-type: none;
   padding: 0;
 }
