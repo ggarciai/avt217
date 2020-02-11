@@ -1,13 +1,17 @@
 /* selector */
 body {
-  background-color: navajowhite;
-  color: black;
-  font-family: sans-serif;
+  background: rgb(100,161,200);
+background: linear-gradient(180deg, rgba(100,161,200,1) 0%, rgba(5,95,178,1) 92%);
+  color: navajowhite;
+  font-family: monospace;
   font-size: 22px;
-  margin: 100px 50px 100px 50px:
 }
 h1 {
   text-align: center;
+}
+h2 {
+  text-align: center;
+}
 }
 li {
    margin: 30px 0 0 0;
@@ -17,18 +21,16 @@ li {
 
 }
 ol {
-  margin: 50px 300px 50px 200px
 }
 ul {
-  text-align: center;
   list-style-type: none;
   padding: 0;
 }
-#images {
-  margin: 0;
-  text-align: center;
+.intro {
+  color: maroon;
 }
-#images img {
-  max-width: 100%;
-  margin: 25px 0;
+.container {
+  width: 50%
+  margin: 100px auto;
+
 }
