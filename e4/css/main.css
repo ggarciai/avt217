@@ -3,14 +3,19 @@ body {
   background: rgb(100,161,200);
 background: linear-gradient(180deg, rgba(100,161,200,1) 0%, rgba(5,95,178,1) 92%);
   color: navajowhite;
-  font-family: monospace;
+  font-family: sans-serif;
   font-size: 22px;
+  text-align: center;
+
 }
 h1 {
   text-align: center;
 }
 h2 {
   text-align: center;
+}
+h3 {
+  font-size: 32px;
 }
 }
 li {
@@ -27,7 +32,6 @@ ul {
   padding: 0;
 }
 .intro {
-  color: maroon;
 }
 .container {
   width: 50%
