@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.container {
+ width: 110vw;
+ margin: -50px -50%;
+}
+.block-1, .block-2 {
+  width: 100px;
+  height: 100px;
+  float: left;
+  /* opacity: .7; */
+  border-radius: 50%;
+  border: 10px solid black;
+}
+.block-1 {
+  border-color: black;
+  margin: 50px;
+}
+.block-2 {
+  border-color: navajowhite;
+  margin: -50px;
+}
+.block-3 {
+  border-radius: 25%;
+  border: 10px solid black;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-color: blue;
+  margin: 0;
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+#container {
+  text-align: center;
+  background-color: navajowhite;
+  width: 75%;
+  margin: 100px auto;
+  padding: 100px
+  }
+h1.google {
+  font-family: 'Sriracha', cursive;
+}
+
+h2 {
+  font-family: 'Damion', cursive;
+}
+h1.adobe {
+  font-family: mono45-headline, monospace;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 300px:
+
+}
