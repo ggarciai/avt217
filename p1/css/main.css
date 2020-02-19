@@ -1,0 +1,29 @@
+/* selector */
+body {
+  background: rgb(245,133,133);
+  background: linear-gradient(180deg, rgba(245,133,133,1) 0%, rgba(111,17,6,1) 99%);
+  color: grey;
+  font-family: sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Damion', cursive;
+  font-size: 150px;
+}
+
+a {
+  text-transform: none;
+  color: BlanchedAlmond;
+  text-decoration:none;
+  letter-spacing: 1.5px;
+
+}
+a:hover {
+  color: white;
+}
+  .container {
+    width: 50%;
+    margin: 75% auto;
+  }
