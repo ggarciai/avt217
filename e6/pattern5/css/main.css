@@ -3,31 +3,33 @@ body {
   overflow-x: hidden;
 }
 .container {
- width: 110vw;
- margin: -50px -50%;
+ width: 100vw;
+ margin: 0px 10px;
 }
 .block-1, .block-2 {
-  width: 100px;
+  width: 90px;
   height: 100px;
   float: left;
   /* opacity: .7; */
   border-radius: 50%;
-  border: 10px solid black;
+  border: 20px solid black;
 }
 .block-1 {
   border-color: black;
   margin: 50px;
+  background: tomato;
 }
 .block-2 {
   border-color: navajowhite;
   margin: -50px;
+  background: lightblue;
 }
 .block-3 {
-  border-radius: 25%;
+  border-radius: 75%;
   border: 10px solid black;
   float: left;
-  width: 200px;
-  height: 200px;
-  border-color: blue;
+  width: 150px;
+  height: 150px;
+  border-color: magenta;
   margin: 0;
 }

@@ -4,30 +4,30 @@ body {
 }
 .container {
  width: 110vw;
- margin: -50px -50%;
+ margin: -50px auto;
 }
 .block-1, .block-2 {
-  width: 100px;
-  height: 100px;
+  width: 10px;
+  height: 10px;
   float: left;
   /* opacity: .7; */
-  border-radius: 50%;
-  border: 10px solid black;
+  border-radius: 100%;
+  border: 50px solid green;
 }
 .block-1 {
   border-color: black;
   margin: 50px;
 }
 .block-2 {
-  border-color: navajowhite;
+  border-color: teal;
   margin: -50px;
 }
 .block-3 {
   border-radius: 25%;
-  border: 10px solid black;
+  border: 35px solid tomato;
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 20px;
+  height: 20px;
   border-color: blue;
   margin: 0;
 }

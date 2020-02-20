@@ -4,23 +4,23 @@ body {
 }
 .container {
  width: 110vw;
- margin: -50px -50%;
-}
-.block-1, .block-2 {
-  width: 100px;
-  height: 100px;
-  float: left;
-  /* opacity: .7; */
-  border-radius: 50%;
-  border: 10px solid black;
+ margin: -50px auto;
 }
 .block-1 {
   border-color: black;
-  margin: 50px;
+  float: left;
+  width: 80px;
+  height: 30px;
+  background: darkblue;
+  margin: 0;
 }
 .block-2 {
   border-color: navajowhite;
-  margin: -50px;
+  float: left;
+  margin: 0;
+  width: 50px;
+  height: 250px;
+  background: Teal
 }
 .block-3 {
   border-radius: 25%;
@@ -30,4 +30,6 @@ body {
   height: 200px;
   border-color: blue;
   margin: 0;
+  background: tomato;
+  
 }

@@ -11,7 +11,7 @@ body {
   height: 100px;
   float: left;
   /* opacity: .7; */
-  border-radius: 50%;
+  border-radius: 60%;
   border: 10px solid black;
 }
 .block-1 {
@@ -29,6 +29,6 @@ body {
   float: left;
   width: 200px;
   height: 200px;
-  border-color: blue;
+  border-color: red;
   margin: 0;
 }
