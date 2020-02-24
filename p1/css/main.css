@@ -7,7 +7,7 @@ h1 {
   font-family: 'Sriracha';
   color: white;
   font-size: 150px;
-  text-shadow: 0px 0px 50px Tomato;
+  text-shadow: 0px 0px 50px Aquamarine;
 }
 
 h2 {
@@ -22,6 +22,7 @@ h3 {
     color: White;
     font-size: 75px;
     text-shadow: 0px 0px 35px Aquamarine;
+
   }
 h4 {
   font-family: 'Sriracha';
@@ -29,25 +30,20 @@ h4 {
   font-size: 50px;
   text-shadow: 0px 0px 35px Navajowhite;
 }
-}
 
-a:link {
+a {
+  text-transform: none;
+  color: white;
   text-decoration: none;
-}
+  letter-spacing: 1.5px;
+  text-shadow: 0px 0px 35px tomato;
 
-a:visited {
-  text-decoration: none;
 }
-
 a:hover {
-  text-decoration: underline;
   color: tomato;
 }
 
-a:active {
-  text-decoration: none;
-}
-  .container {
-    width: 50%;
-    margin: 75px auto;
+.container {
+    width: 50% ;
+    margin: 15% 25% ;
   }
