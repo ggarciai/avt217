@@ -24,6 +24,7 @@ li {
 ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 #images {
   margin: 100px 50px 100px 50px;
