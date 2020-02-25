@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: grey;
+}
+.board {
+  width: 800px;
+  margin: 100px auto;
+
+}
+.tomato, .white {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+.tomato {
+  background-color: tomato;
+}
+.white {
+  background-color: navajowhite;
+}
