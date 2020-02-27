@@ -1,0 +1,41 @@
+/* selector */
+body {
+  background-color: olive;
+  color: Navajowhite;
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: center;
+
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 32px;
+}
+}
+li {
+   margin: 30px 0 0 0;
+   font-size: 22px;
+   list-style-type: none;
+   padding: 0;
+
+}
+#imgages {
+  text-align: center;
+}
+ol {
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.intro {
+}
+.container {
+  width: 50%;
+  margin: 50px auto;
+}

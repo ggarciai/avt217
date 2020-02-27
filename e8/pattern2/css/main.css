@@ -1,6 +1,7 @@
 body {
   background-color: BlanchedAlmond;
-  }.container {
+  }
+.container {
   width: 900px;
   margin: 100px auto;
 
@@ -29,6 +30,4 @@ body {
   width: 900px;
   height: 75px;
   margin: 25px 0px;
-}
-
 }

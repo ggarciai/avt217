@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: grey;
+  background-color: blanchedalmond;
 }
 .board {
   width: 800px;
@@ -16,5 +16,5 @@ body {
   background-color: tomato;
 }
 .white {
-  background-color: navajowhite;
+  background-color: blanchedalmond;
 }
