@@ -1,54 +1,49 @@
-body {
-  background-color: blanchedalmond;
-  
-  }#container {
-  width: 600px;
+* {
+  box-sizing: border-box;
+}
+.container {
+  width:800px;
   margin: 100px auto;
-}
-#container2 {
-  width: 600px;
 
 }
-.column1, .header, .column2 {
-  float: left;
-  background-color: firebrick;
-
-}
-.header {
-  width: 390px;
-  height: 120px;
-}
-.margin1 {
-  margin: 0px 5px;
-}
-.margin2 {
-  margin: 240px 5px 0px 5px;
-}
-.column1 {
+.small {
   width: 100px;
-  height: 360px;
-  margin: 0px 0px 5px;
+  height: 150px;
+  background-color: Blue;
+  float: left;
+  border: 2px solid white;
+
 }
-#conainter4 {
+.largest {
   width: 200px;
-  height: 800px;
-  margin: 125px;
-  background-color: blue;
-  z-index: 10;
+  height: 450px;
+  background-color: Blue;
+  float: left;
+  border: 2px solid white;
 }
-.column2 {
-  width: 192.5px;
-  height: 235.5px;
+.medium {
+  width: 100px;
+  height: 300px;
+  background-color: Blue;
+  border: 2px solid white;
+  float: left;
 }
-.m1 {
-  margin: -605px 105px;
+.large {
+  width: 200px;
+  height: 300px;
+  background-color: Blue;
+  border: 2px solid white;
+  float: left;
 }
-.m2 {
- margin: -605px 302.5px;
+.board {
+  width: 600px;
+  float: left;
 }
-.m3 {
- margin: -365px 105px;
+.board2 {
+  width: 200px;
+  float: left;
 }
-.m4 {
-  margin: -365px 302.5px;
+.board3 {
+  width: 100px;
+  Float: left;
 }
