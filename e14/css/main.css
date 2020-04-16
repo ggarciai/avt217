@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.fixed {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  top: 300px;
+  left: 100px;
+  background-color: Tomato
+
+}
+.absolute {
+  background-color: aquamarine;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+.relative {
+  Background-color: blanchedalmond;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 300px;
+  left: 300px;
+}
