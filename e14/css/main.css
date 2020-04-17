@@ -4,28 +4,129 @@
 body {
   margin: 0;
 }
-.fixed {
-  position: fixed;
-  width: 300px;
-  height: 300px;
-  top: 300px;
-  left: 100px;
-  background-color: Tomato
+.table {
+  margin: 100px auto;
+  width: 1000px;
+  height: 600px;
+  background-color: darkcyan;
+  position: relative;
 
 }
-.absolute {
-  background-color: aquamarine;
+.plate {
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  bottom: 125px;
+  left: 325px;
+  box-shadow: 10px 10px 200px black;
+
+}
+
+.cup {
+  background-color: white;
+  border-radius: 50%;
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 300px;
-  left: 200px;
+  bottom: 150px;
+  left: 350px;
+  box-shadow: 0px 0px 10px black;
+
 }
-.relative {
-  Background-color: blanchedalmond;
-  width: 300px;
-  height: 300px;
-  position: relative;
-  top: 300px;
-  left: 300px;
+.handle {
+  Background-color: white;
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  top: 266px;
+  left: 645px;
+
+}
+
+.coffee {
+  background-color: saddlebrown;
+  border-radius: 50%;
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  bottom: 160px;
+  left: 360px;
+
+}
+.sugarcube1 {
+  background-color: ghostwhite;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+  box-shadow: 0px 0px 20px black;
+  animation-name: sugarcube1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  transform: rotate(50deg);
+
+}
+
+
+@keyframes sugarcube1 {
+  0% {height: 50px;}
+  100% {height: 0px;}
+  0% {width: 50px;}
+  100% {width: 0px;}
+  0% {right: 20px;}
+  50% {right: 5px;}
+  100% {right: 20px;}
+}
+.sugarcube2 {
+  background-color: ghostwhite;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 350px;
+  left: 450px;
+  box-shadow: 0px 0px 20px black;
+  animation-name: sugarcube2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  transform: rotate(25deg);
+
+}
+
+
+@keyframes sugarcube2 {
+  0% {height: 40px;}
+  100% {height: 0px;}
+  0% {width: 40px;}
+  100% {width: 0px;}
+  0% {right: 20px;}
+  50% {right: 5px;}
+  100% {right: 20px;}
+}
+.sugarcube3 {
+  background-color: ghostwhite;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 300px;
+  left: 500px;
+  box-shadow: 0px 0px 20px black;
+  animation-name: sugarcube3;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  transform: rotate(35deg);
+
+}
+
+
+@keyframes sugarcube3 {
+  0% {height: 50px;}
+  100% {height: 0px;}
+  0% {width: 50px;}
+  100% {width: 0px;}
+  0% {right: 20px;}
+  50% {right: 5px;}
+  100% {right: 20px;}
 }
